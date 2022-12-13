@@ -41,7 +41,7 @@ class TransactionList extends StatelessWidget {
                     vertical: 8,
                     horizontal: 5,
                   ),
-                  elevation: 5 ,
+                  elevation: 5,
                   child: ListTile(
                     leading: CircleAvatar(
                       radius: 30,
@@ -65,6 +65,11 @@ class TransactionList extends StatelessWidget {
                         fontSize: 20,
                         fontWeight: FontWeight.bold,
                       ),
+                    ),
+                    trailing: IconButton(
+                      icon: const Icon(Icons.delete),
+                      color: Colors.red,
+                      onPressed: () {},
                     ),
                   ),
                 );
